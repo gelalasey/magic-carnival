@@ -1,0 +1,21 @@
+{
+  "name": "dimensional-dwarf",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^4.1.0",
+    "@astrojs/rss": "^4.0.12",
+    "@fontsource/fontdiner-swanky": "^5.2.6",
+    "astro": "^5.13.2",
+    "commentbox.io": "^2.1.0",
+    "preact": "^10.27.1"
+  }
+}

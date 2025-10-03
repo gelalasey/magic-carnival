@@ -1,0 +1,118 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import Glupdates from "../components/Glupdates.astro";
+
+const title = "Gelsey Land";
+const subtitle = "welcome to park services";
+const bannerImage = "/bg/hoshi_y_t.gif";
+const tinyImage = "/smalls/sm-balloons.gif";
+---
+
+<head>
+	<meta
+		http-equiv="Content-Security-Policy"
+		content="connect-src 'self' data: blob: https://status.cafe;"
+	/>
+	<script src="https://iframe.chat/scripts/main.min.js"></script>
+</head>
+
+<Layout
+	title={title}
+	subtitle={subtitle}
+	bannerImage={bannerImage}
+	tinyImage={tinyImage}
+	><div slot="after-navl">
+		<div class="hero">
+			<a href="/umpd.html" class="button" style="font-size: 1.25rem;"
+				>looking for uma in your area?</a
+			>
+		</div>
+	</div>
+	<div slot="main-text">
+		<div class="flexbox">
+			<p>
+				hey gang - pardon our pixel dust. This is Gelsey Land's <b
+					>beta launch</b
+				> meaning you beta not expect me to have fully perfected this page
+				yet. There's enough content to get my most important info up, but
+				there's still a lot of things left to be build. Be sure to <a
+					href="https://neocities.org/dashboard"
+					>follow me on neocities</a
+				> for future updates!
+			</p>
+			<div><img src="images/littleman.webp" /></div>
+		</div>
+
+		<div class="divider-balloon"></div>
+		<h3>Fall 2025 to do</h3>
+		<ul>
+			<li><s>fix my status cafe widget</s></li>
+			<li><s>finish populating my blog posts</s></li>
+			<li><s>find a cleaner way to display/organize said posts</s></li>
+			<li>
+				add a section for personal life maxxing - non media based
+				hobbies and interests usually related to self improvement
+			</li>
+			<li>build strat guides for all the umas</li>
+		</ul>
+	</div>
+
+	<div slot="before-navr">
+		
+	</div>
+	<div slot="full">
+		<h1>mission statement</h1>
+		<p>
+			"This site is more than just a cutesy theme for a personal site ...
+			okay tbf that is a large part of it but that's not the only reason.
+			Everyday I experience like 2 million various stimuli: the song on my
+			alarm, the first article I read on my feed, the video I play in the
+			background as I grind on my mobage while simultaneously working on a
+			project. I live and walk through noise and clutter. My theme park is
+			where I make sense of everything. I freeze the moments and take in
+			the little details. Its funny to think of a big crazy loud theme
+			park as a place for quiet contemplation, but I never have liked
+			traditional meditating or Thoreau style writers retreats. My brain
+			is loud and exciting. I dont want to clear my head i just want to be
+			able to sit in the passengers seat and experience my own thoughts as
+			a guest. I hope you enjoy the ride. &#127906;
+		</p>
+		<img src="/div/bluepinkdiv.png" />
+	</div>
+
+	<div slot="left-half">
+		<section class="half">
+			<Glupdates />
+		</section>
+	</div>
+	<div slot="right-half">
+		<section class="half">
+			<iframe
+				src="https://users3.smartgb.com/g/g.php?a=s&i=g36-39145-c7#write"
+				height="350px"
+				width="380px"
+				scrolling="no"
+				loading="lazy"></iframe>
+		</section>
+	</div>
+</Layout>
+<style>
+	.hero {
+		background: url("/tables/buntingframe.png"), url("/umpd/groupphoto.png");
+		background-size: cover, cover;
+		background-position: center, center;
+		background-repeat: no-repeat, no-repeat;
+		height: 10rem;
+		position: relative;
+	}
+	.hero a {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		font-size: 1rem !important ;
+	}
+</style>
