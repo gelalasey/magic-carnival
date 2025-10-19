@@ -130,11 +130,12 @@ div.small > img {
 }
 /*this is for lists*/
 li {
-  list-style: url(/public/smalls/littleice.gif);
+  list-style: url(/smalls/littleice.gif);
 }
 
-.spooky li{
-	list-style-type: "⛧";
+ul{
+	list-style-position: inside;
+	display: inline-block;
 }
 
 
@@ -148,6 +149,14 @@ section {
 
 
 /*For specific Image and Pic Formats*/
+.dividerimg {
+	background-repeat: repeat-x;
+	background-position: center;
+	background-size: auto 20px;
+	width: 100%;
+	height: 20px;
+	object-fit: contain;
+}
 
 .divider-balloon{
 	background-repeat: repeat-x;
@@ -176,7 +185,7 @@ width: 160px;
 height: 90px;
 }
 
-.shring > div{
+.shrine > div{
 text-align: center;	
 }
 
@@ -185,6 +194,25 @@ border-radius: 25px;
 width: 100%;
 height: 100%;
 object-fit: cover;
+}
+
+/* too lazy to recode so let's just reuse this format */
+.medart {
+	padding: 10px;
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+}
+
+.medart>div {
+	text-align: center;
+}
+
+.medart img {
+	border-radius: 15px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 /* my updates section for the front page */
@@ -360,13 +388,6 @@ mark{
 }
 .artsmall img{
     max-width:50px;
-}
-.artmed{
-    flex-direction: row;
-    flex: 1 1 600px;
-}
-.artmed img{
-    max-width:75px;
 }
 
 .artlarge{

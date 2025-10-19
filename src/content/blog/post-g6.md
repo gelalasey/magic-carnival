@@ -16,7 +16,9 @@ ul {
 }
 </style>
 
-*updated 9/26/25 to reflect current status of builds*
+*updated 10/19/25 to reflect results*
+
+Before we get into this too far - I did want to say that I ended up placing first in B group with this build. In the end I will probably NEVER do ggparents or gparents again unless I'm trying to make a longer term team build or something. it was just tooooo much work and burned me out when i actually needed to grind for the final Maru. 
 
 # Quick Facts
 

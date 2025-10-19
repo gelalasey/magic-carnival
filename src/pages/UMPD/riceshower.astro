@@ -1,5 +1,6 @@
 ---
 import UmaLayout from "../../layouts/UmaLayout.astro";
+import Music from "../../components/widget/Music.astro";
 
 const title = "rosy dream";
 const cardname = "rosy dream";
@@ -94,7 +95,7 @@ const cardimg =
                     <td>Subdued Pace Chasers</td>
                     <td
                         >If other pace chasers ≥1, race has been going for 5
-                        seconds</td
+                        seconds and wit check passed</td
                     >
                     <td
                         >Stamina drain on all enemy pace chasters by 1%
@@ -108,7 +109,9 @@ const cardimg =
                         /></td
                     >
                     <td>Straight Descent</td>
-                    <td>If pace chaser and running downhill </td>
+                    <td
+                        >If pace chaser, wit check passed and running downhill
+                    </td>
                     <td>Acceleration increases 20% for 3 sec</td>
                 </tr>
                 <tr>
@@ -118,7 +121,7 @@ const cardimg =
                         /></td
                     >
                     <td>Deep Breaths</td>
-                    <td>If long distance </td>
+                    <td>If long distance and wit check passed </td>
                     <td>Stanima recovery 1.5% instantly</td>
                 </tr>
                 <tr>
@@ -128,7 +131,7 @@ const cardimg =
                         /></td
                     >
                     <td>Highlander</td>
-                    <td>If running uphill </td>
+                    <td>If running uphill and wit check passed </td>
                     <td>Increase acceleration by 20% for 3 sec</td>
                 </tr>
                 <tr>
@@ -138,7 +141,9 @@ const cardimg =
                         /></td
                     >
                     <td>Determined Descent</td>
-                    <td>If pace chaser, and running downhill</td>
+                    <td
+                        >If pace chaser, wit check passed and running downhill</td
+                    >
                     <td>Increase acceleration by 30% for 3 sec</td>
                 </tr>
                 <tr>
@@ -148,188 +153,116 @@ const cardimg =
                         /></td
                     >
                     <td>Hydrate</td>
-                    <td>If pace chaser and mid race</td>
+                    <td>If pace chaser, wit check passed and mid race</td>
                     <td>Stamina recovers 1.5% instantly</td>
                 </tr>
             </table>
         </div>
     </div>
+
+    <div slot="box-right">
+        <h3>URA Build</h3>
+        <ul>
+            <li>
+                <b>Goal stats:</b> - 1000 speed, 1000 stam, 600 power, 400 guts,
+                300 wit
+            </li>
+            <li><b>SSR Recs:</b></li>
+            <div class="small">
+                <!--images for support cards here -->
+            </div>
+            <li>
+                <b>legacy sparks:</b>9★
+            </li>
+            <li>
+                <b>Skills:</b><ul>
+                    <li>As many useful stamina recovery skills as you can</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>other notes</h3>
+        <ul>
+            <li>
+                Increasing mileage aptitude will make scenario clearing more
+                stable
+            </li>
+            <li>
+                I wouldn't rank her as a high useful card because of her shitty
+                ult skill, but she has a sentimental place in my heart so I
+                leveled her to 4.
+            </li>
+        </ul>
+    </div>
+    <div slot="the-whole">
+        <h3>URA Schedule</h3>
+        <h4>junior year : dont waste your freetime</h4>
+        <ul>
+            <li><b>12</b> Make Debut [Turf – 2000m – Medium]</li>
+        </ul>
+        <h4>
+            Classics goals stats: 500-600 speed, 500-600 stam, 350-400 power
+        </h4>
+        <ul>
+            <li>Aim for speed 350 by the Spring S in early March</li>
+            <li>
+                <b>30</b>5th or better in the Spring Stakes [G2 – Turf – 1800m –
+                Mile]
+            </li>
+            <li>
+                <b>34</b> 5th or better in the Tokyo Yushun (Japan Derby) [G1 – Turf
+                – 2400m – Medium]
+            </li>
+            <li>Aim for stamina 300 by the Japan Derby in late May</li>
+            <li>
+                <b>44</b>3rd or better in the Kikuka Sho [G1 – Turf – 3000m –
+                Long]
+            </li>
+            <li>Aim for stamina 500 by the Kikuka Sho in late October</li>
+        </ul>
+        <h4>Senior goal stats: 800-1000 speed, 900-1000 stam, 600-700 power</h4>
+        <ul>
+            <li><b>54</b> 3rd or better in the Nikkei Sho []</li>
+            <li>
+                Aim for stamina 600 by the Emperor's Cup Spring in late April
+            </li>
+            <li>
+                <b>56</b> 1st in the Tenno Sho (Spring) [G1 – Turf – 3200m – Long]
+            </li>
+            <li>
+                <b>60</b> 3rd or better in the Takarazuka Kinen [G1 – Turf – 2200m
+                – Medium]
+            </li>
+            <li><b>72</b> 1st in the Arima Kinen [G1 – Turf – 2500m – Long]</li>
+        </ul>
+    </div>
+    <div slot="the-whole2">
+        <img
+            src="https://64.media.tumblr.com/9b57a24d5bacc1dee28e7dcbfcabb963/57cd3f6a4b5c3deb-c9/s2048x3072/864e9696a783bc1c9a9eb8b544bad663de0e93e0.pnj"
+            style="max-width: 100%;"
+        />
+        <div id="music" class="flex flex-col w-full gap-4">
+            <div id="music" class="flex flex-col w-full gap-4">
+                <Music
+                    songname="ささやかな祈り (Small Prayer) "
+                    songlink="https://file.garden/aOJjY5VloELMsNHX/%E3%81%95%E3%81%95%E3%82%84%E3%81%8B%E3%81%AA%E7%A5%88%E3%82%8A.mp3"
+                    songcover="https://media1.tenor.com/m/-O1beb3o9k8AAAAd/uma-musume-umamusume.gif"
+                />
+            </div>
+        </div>
+        <p>
+            Sweet baby Rice - my darling daughter. While her card really isn't
+            that impressive I have such a soft spot for this sweet goth baby. I
+            love her no matter how insanely long her ears are in proportion to
+            the rest of her body. I first got to know her in season 2 of the
+            anime - and damn getting booed despite having such a successful good
+            race was a gut punch. I felt for her man.
+        </p>
+        <div class="large">
+            <img src="/umpd/rs1.jpg" alt="c'mon rice you can do this yeah" />
+        </div>
+        <img
+            src="https://64.media.tumblr.com/81b29785bbc67647a2d93af1a96c498f/57cd3f6a4b5c3deb-e4/s2048x3072/e1a22e5d46881c283f769f723fe57648f121b0dd.pnj"
+            style="max-width: 100%;"
+        />
+    </div>
 </UmaLayout>
-<div slot="box-right">
-    <h3>parents:</h3>
-    <ul>
-        <li>most compatible:</li>
-        <li>best sparks:</li>
-        <li>best skills:</li>
-    </ul>
-    <h4>deck build</h4>
-    <div class="small">
-        <img
-            src="https://img.game8.co/4217015/153838608e154b6d9fc4f2739cab45c7.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216928/014824fcd1d9de631eccb6a433409cee.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216986/1293ea3dc08e0b8251cb32e9c203fbd8.png/show"
-        />
-        <img
-            src="https://img.game8.co/4220093/f5f333c012b66df055ff4ba4d39b1074.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216956/9de8f34382a448c0c7b0d554f8785764.png/show"
-        />
-        <img
-            src="https://img.game8.co/4217004/a1dca6a3b7dc01d7260b61354206572b.png/show"
-        />
-        <img
-            src="https://img.game8.co/4217005/0ae89a5a90396fd64a70e7e3ac7ff61f.png/show"
-        />
-        <img
-            src="https://img.game8.co/4220989/f10dfe2e4cecd3e18a7534b2a791023c.png/show"
-        />
-    </div>
-    <div class="small">
-        <img
-            src="https://img.game8.co/4216928/014824fcd1d9de631eccb6a433409cee.png/show"
-        />
-        <img
-            src="https://img.game8.co/4217008/9b0fff05441ee19ba7d325d87970381a.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216976/2534fb62fff784e4c60681a94f8d463f.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216921/91b37320035a93c4d4797d5ad49278ea.png/show"
-        />
-        <img
-            src="https://img.game8.co/4217009/addcf67073760c7d6819b1de161f8ac4.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216935/100f6b7ab85435cdc59451e65415ded4.png/show"
-        />
-    </div>
-    <div class="small">
-        <img
-            src="https://img.game8.co/4216988/65712f78efdb6c1097a6f28ede3bf38a.png/show"
-        />
-        <img
-            src="https://img.game8.co/4218617/68c4c7cdcd26a13fa87c5f083a7548e0.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216967/4f3a2e381dc8d111a93fe38c85ad99af.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216955/c4e8c1d6bdfaca1788be4f880ced0d8c.png/show"
-        />
-        <img
-            src="https://img.game8.co/4217012/b411b9e36183d24fda36f781bc9e6a1a.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216987/5379a2f017eb00497a1964a0000d1e61.png/show"
-        />
-    </div>
-    <div class="small">
-        <img
-            src="https://img.game8.co/4218616/5381cc866a49ad65f83876f47662001e.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216934/8ed4f64c8e2d6d323ef3c37497d037cc.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216940/e66e67fb539011f5dcc2538201d78d7b.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216978/65131316552f0e4da5eab402d6dc82be.png/show"
-        />
-    </div>
-    <div class="small">
-        <img
-            src="https://img.game8.co/4216909/51948a362a139d9db95f858673d39164.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216919/54fb7e8c2ee829ca0d4ec498ca151171.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216915/273ed12209143b4b32b2664c5ac70333.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216948/9e6f130e4e2f5be3b66861c4c92da8fa.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216994/d4101a28256f6e1f77751492dd3d66c0.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216925/cdc63377f6c99bceb7fa4aad1ebdf636.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216918/ae698c30c34fe8a17261eeab497483e7.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216922/d680f1ccee2313f552d68ef0df152c09.png/show"
-        />
-    </div>
-    <div class="small">
-        <img
-            src="https://img.game8.co/4217006/afec7558fcd9f4114e494bd8d383efe0.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216982/b37eb45e683a42665e0cd32a8db2eb9d.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216912/ad2ffcd0c5a83b819990da8aeacf4040.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216926/2bc1f9e84ecbf9679cdd487ffeaf9e26.png/show"
-        />
-        <img
-            src="https://img.game8.co/4217007/0616c623d3f8c40f45c449cbb823efe3.png/show"
-        />
-        <img
-            src="https://img.game8.co/4217014/a8135fb8f5e9321ab1481e325bf13107.png/show"
-        />
-        <img
-            src="https://img.game8.co/4216999/6bac71aff0bb69cd1f4d3b0a9cffc62b.png/show"
-        />
-    </div>
-</div>
-<div slot="the-whole">
-    <h3>URA Schedule</h3>
-    <h4>overall goals</h4>
-    <ul>
-        <li>Long distance and leading are recommended for training.</li>
-        <li>Focus on speed and stamina</li>
-        <li>
-            If you have the time, it is recommended to raise the awakening level
-            to 5.
-        </li>
-        <li>
-            Increasing mileage aptitude will make scenario clearing more stable
-        </li>
-        <li>distances include 3 medium, 1 mile, and 4 long</li>
-        <li>grades include 1 debut, 2 G2's, and 5 G5's</li>
-    </ul>
-    <h4>junior year : dont waste your freetime</h4>
-    <ul>
-        <li>Prioritize rainbow training as always</li>
-    </ul>
-    <h4>Classics goals stats: 500-600 speed, 500-600 stam, 350-400 power</h4>
-    <ul>
-        <li>Aim for speed 350 by the Spring S in early March</li>
-        <li>Aim for stamina 300 by the Japan Derby in late May</li>
-        <li>
-            Maintain high physical strength by taking time off before summer
-            training camp
-        </li>
-        <li>Aim for stamina 500 by the Kikuka Sho in late October</li>
-    </ul>
-    <h4>End goal stats: 800-1000 speed, 900-1000 stam, 600-700 power</h4>
-    <ul>
-        <li>Aim for stamina 600 by the Emperor's Cup Spring in late April</li>
-        <li>
-            If intelligence is likely to fall below 300, also train intelligence
-        </li>
-        <li>Acquire stamina recovery skills as much as possible</li>
-    </ul>
-</div>
-<div slot="the-whole2"></div>

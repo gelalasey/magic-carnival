@@ -4,7 +4,8 @@ import Layout from "../layouts/Layout.astro";
 
 const title = "midway";
 const subtitle = "games";
-const bannerImage = "/bg/hoshi_y_t.gif";
+const bannerImage =
+    "https://64.media.tumblr.com/99b70718b6ff487f24540e2cd6d0273d/9c43fc7019c2455b-d8/s1280x1920/d36e094eb9de6e5805ab4721db789962ff5be5e0.gifv";
 const tinyImage = "/smalls/sm-ds.gif";
 ---
 
@@ -41,7 +42,9 @@ const tinyImage = "/smalls/sm-ds.gif";
                         src="https://4.bp.blogspot.com/--nxLDk2oE78/XQBAWkfHEII/AAAAAAAAB9Y/lXCFEDEpg7I-BYF60GzlXGNWltR2fydxgCK4BGAYYCw/s640/ACNH_E3_Banner.png"
                     />
                 </div>
-                <div class="center"><a href="/tags/acnh/"><h4>acnh</h4></a></div>
+                <div class="center">
+                    <a href="/tags/acnh/"><h4>acnh</h4></a>
+                </div>
             </div>
             <div>
                 <div class="shrine">
@@ -92,32 +95,36 @@ const tinyImage = "/smalls/sm-ds.gif";
         <a href="http://www.styledollz.com/"
             ><img src="/link-backs/Banner_StyleDollz5.gif" /></a
         >
-    </div>
+        <a href="https://neal.fun/stimulation-clicker/">Stimulation Clicker</a> <div>
+            <style>
+                .posts-grid {
+                    display: grid;
+                    grid-template-columns: repeat(
+                        auto-fill,
+                        minmax(140px, 1fr)
+                    );
+                    gap: 0.5rem;
+                    margin-top: 1rem;
+                }
 
-    <style>
-        .posts-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-            gap: 0.5rem;
-            margin-top: 1rem;
-        }
-
-        .hero {
-            background: url("/tables/buntingframe.png"),
-                url("/umpd/groupphoto.png");
-            background-size: cover, cover;
-            background-position: center, center;
-            background-repeat: no-repeat, no-repeat;
-            height: 400px;
-            position: relative;
-        }
-        .hero a {
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
-    </style>
-</Layout>
+                .hero {
+                    background: url("/tables/buntingframe.png"),
+                        url("/umpd/groupphoto.png");
+                    background-size: cover, cover;
+                    background-position: center, center;
+                    background-repeat: no-repeat, no-repeat;
+                    height: 400px;
+                    position: relative;
+                }
+                .hero a {
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                }
+            </style>
+        </a>
+    </div></Layout
+>
