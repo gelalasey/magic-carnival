@@ -1,5 +1,5 @@
 ---
-title: '#らぶしっく'
+title: 'all about #らぶしっく'
 pubDate: 2025-08-07
 description: 'truly i am not big on boy bands. like i may be a gay little twink but at the end of the day im here to see pretty girls in pretty dresses. but rindo ent. said "bet" and gave us the greatest combination - pretty boy in pretty dress/suit gender ambiguous wardrobes.'
 author: 'music gelsey'
@@ -8,10 +8,7 @@ image:
     alt: 'you newest boyfriends'
 tags: ["jpop", "boy", "lovesick", "music"]
 ---
-# all about らぶしっく
-
-
-## quick stats
+#  quick stats
 
 
 *   Debut: Aug 7, 2025
@@ -19,7 +16,7 @@ tags: ["jpop", "boy", "lovesick", "music"]
 *   concept: pretty boys, menhara, yandere
 
 
-## bias
+# bias
 
 
 
@@ -40,22 +37,22 @@ tags: ["jpop", "boy", "lovesick", "music"]
 
 
 
-## favorite MV
+# favorite MV
 
 "すとーきんぐ♡LOVE" (Stalking Love) is a perfect combination of how they keep the cute factor up with a bit of edge. I love how hard the refrain goes, i love the weird combination of men in crop tops whacking who also are shooting guns, I love them kidnapping and doing knock off saw with themselves. honestly i can understand this not being for everyone - but those who like this **love this**
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Lak7HkfRZ9E?si=-X13UNKPzW0Eckiq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-## favorite song
+# favorite song
 
-### runner up
+## runner up
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nWGvSrpXYoI?si=TuACzMV7McWdaLQH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>     
 
 I didn't want to give it to stalking love again bc that song goes so hard....while this song is a bit newer I really enjoy it. It's got my hallmarks for a fav song - fast speed, included wota guide, head banging guitar...not sure if it will stand the test of time but i'm allowing it to claim the top spot for today.
 
-### winner
+## winner
 
 it's a hard world, you can't escape it. don't hold it in, just say it! be selfish!
 
@@ -63,7 +60,7 @@ it's a hard world, you can't escape it. don't hold it in, just say it! be selfis
 
 I fell in love beat and melody first. the lyrics came later. it's so fun and playful.
 
-## favorite costume
+# favorite costume
 
 the トランプ (trump) costume
 
@@ -73,9 +70,9 @@ clowncoreclowncoreclowncore!
 
 <br>
 
-## fun facts
+# fun facts
 
-### there is a [baby shower balloon](https://youtu.be/gnO-kEMZwZc?list=RDgnO-kEMZwZc&t=77) on the set for the "グッモニグッナイ" (Good Morning Good Night) music video.
+## there is a [baby shower balloon](https://youtu.be/gnO-kEMZwZc?list=RDgnO-kEMZwZc&t=77) on the set for the "グッモニグッナイ" (Good Morning Good Night) music video.
 
 idk who the prop person was for this shoot...i think they saw the word "baby" and thought "oh cute english word" but apparently this is a canonic baby shower....fujoushis go wild with this
 
